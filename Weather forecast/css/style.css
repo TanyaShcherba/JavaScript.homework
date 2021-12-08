@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+* {
+    font-family: 'Jost', sans-serif;
+}
+
+p { 
+    z-index: 2;
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 1px 1px 3px #000000;
+    color:white;
+}
+
+dialog {
+    height: 470px;
+    width: 865px;
+    border: 4px solid;
+    border-color:  #29b6f6 #039be5;
+    background: linear-gradient(#e1f5fe, #b3e5fc);
+}
+
+i { 
+    cursor: pointer;
+    float: right;
+    margin: 5px 10px;
+    color: #039be5;
+}
+
+.minibox {
+    height: 350px;
+    width: 230px;
+    z-index: 1;
+    position: absolute;
+    top: 80px;
+    left: 45px;
+    box-shadow: 1px 1px 4px #000000;
+    background: url(img/city.gif) no-repeat center bottom ;
+}
+.weather {
+    padding-top: 100px; 
+}
+
+.infoThreeDays {
+    font-size: 25px;
+}
+
+.city {
+    z-index: 3; 
+    position: relative;
+    font-size: 40px;
+}
+
+.degree {
+    z-index: 4;
+    position: relative;
+    font-size: 50px;
+    color:#039be5;
+}
+
+.disclaimer {
+    z-index: 5;
+    position: relative;
+    font-size: 18px;
+}
+
+.image {
+    z-index: 6;
+    position: absolute;
+    left: 115px;
+    top: 80px;
+}
+
+.feature {
+    z-index: 7;
+    position:relative;
+}
+
+.weatherContainer {
+    display: block;
+    width: 300px;
+    height: 500px;
+    margin-right: auto;
+    border: 4px solid;
+    border-color:  #29b6f6 #039be5;
+    background: linear-gradient(#e1f5fe, #b3e5fc);
+}
+
+.info {
+    cursor: pointer;
+    margin: 5px 10px;
+    text-decoration: none;
+    color: #039be5;
+}
+
+.info:hover {
+    text-decoration: underline;
+}
+
+.threeDaysContainer {
+    float:center;
+    height: 300px;
+    width: 880px;    
+}
+
+.icons {
+    float: left;
+    margin: 20px;
+    height: 350px;
+    width: 240px;
+    border: 4px solid;
+    border-color:  #29b6f6 #039be5;
+    background: linear-gradient(#e1f5fe, #b3e5fc);
+}
+
+.img1, .img2, .img3 {
+    text-align: center; 
+    display: block;
+    
+}
+.weather1, .weather2, .weather3 {
+    font-size: 25px;
+}
+
+.degree1, .degree2, .degree3 {
+    font-size: 40px;
+    color:#039be5;
+}
+.disclaimer1, .disclaimer2, .disclaimer3 {
+    font-size: 20px;
+}

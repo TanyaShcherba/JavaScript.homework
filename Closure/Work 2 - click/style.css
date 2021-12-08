@@ -1,0 +1,16 @@
+button{
+    width: 300px;
+    height: 100px;
+    color: #fff;
+}
+
+.buttonFirst{
+    background: #F7941E;
+}
+.buttonSecond{
+    background: #73A353;
+}
+.buttonThree{
+    background: #C1172C;
+}
+
